@@ -9,7 +9,7 @@ brew install FORMULA
 
 ## Formulae
 
-* [hunspell-dict-ko](Formula/hunspell-dict-ko.rb)
+* [hunspell-dict-ko](Formula/hunspell-dict-ko.rb) - [Korean spellchecking dictionary for Hunspell](https://spellcheck-ko.github.io/)
 
 ## Documentation
 
