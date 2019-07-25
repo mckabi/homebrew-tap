@@ -17,7 +17,7 @@ $ brew install https://raw.githubusercontent.com/mckabi/homebrew-tap/master/Form
 
 ## Formulae
 
-* [hunspell-dict-ko](Formula/hunspell-dict-ko.rb)
+* [hunspell-dict-ko](Formula/hunspell-dict-ko.rb) - [Korean spellchecking dictionary for Hunspell](https://spellcheck-ko.github.io/)
 
 ## Documentation
 
