@@ -1,10 +1,18 @@
-# homebrew-tap
+# McK's Homebrew Tap
 
 ## Installation
 
-```
-brew tap mckabi/tap
-brew install FORMULA
+```shell
+$ brew install mckabi/tap/<FORMULA>
+
+# OR
+
+$ brew tap mckabi/tap
+$ brew install FORMULA
+
+# OR
+
+$ brew install https://raw.githubusercontent.com/mckabi/homebrew-tap/master/Formula/<FORMULA>.rb
 ```
 
 ## Formulae
