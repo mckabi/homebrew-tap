@@ -3,9 +3,9 @@
 class HunspellDictKo < Formula
   desc "Korean spellchecking dictionary for Hunspell"
   homepage "https://spellcheck-ko.github.io/"
-  version "0.7.91"
+  version "0.7.92"
   url "https://github.com/spellcheck-ko/hunspell-dict-ko/releases/download/#{version}/ko-aff-dic-#{version}.zip"
-  sha256 "abb14a7f145cdd919951d364fc3a641444fd415ed306a1d867641d6d1f1e7d9f"
+  sha256 "bcc160217628ce570b97575bb8853d4ed01808167011a45792a807a10f97d2ee"
 
   def install
     prefix.install Dir["*"]
