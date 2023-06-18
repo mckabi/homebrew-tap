@@ -3,15 +3,15 @@
 class HunspellDictKo < Formula
   desc "Korean spellchecking dictionary for Hunspell"
   homepage "https://spellcheck-ko.github.io/"
-  version "0.7.93"
+  version "0.7.94"
   url "https://github.com/spellcheck-ko/hunspell-dict-ko/releases/download/#{version}/ko-aff-dic-#{version}.zip"
-  sha256 "bfbaddf52277befb6951ef4b9cd19de7764790136ce011b5c162b8306b152a70"
+  sha256 "c7252e2f6bf421e081a457ca007cd8a304ee2045947edba47b367db780e63c48"
 
   def install
     prefix.install Dir["*"]
   end
 
-  # ln: /Users/mckabi/Library/Spelling/ko.aff: Operation not permitted
+  # ln: /Users/foo/Library/Spelling/ko.aff: Operation not permitted
   # def post_install
   #   home = ENV["HOME"]
   #   system "ln -s #{prefix}/ko.aff #{home}/Library/Spelling/ko.aff"
